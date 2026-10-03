@@ -1,0 +1,12 @@
+class loop{
+    Public static void main(String[] args){
+        int i = 1;
+        int j = 2;
+        if(i % 2 == 0){
+            System.out.println("true");
+        }
+        else {
+            System.out.println("false")
+        }
+    }
+}
