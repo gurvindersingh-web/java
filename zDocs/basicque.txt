@@ -1,0 +1,638 @@
+
+Absolutely. For **Java Syntax & Input**, you should practice questions that build your fundamentals before moving to loops and DSA.
+
+# 1. Java Syntax & Input — Question Roadmap
+
+## 🟢 Level 1 — Variables & Data Types
+
+### Basic
+
+1. Print `"Hello World"`.
+    
+2. Declare an `int` variable and print it.
+    
+3. Declare variables of type `byte`, `short`, `int`, `long`.
+    
+4. Declare `float` and `double` variables and print them.
+    
+5. Declare a `char` variable and print it.
+    
+6. Declare a `boolean` variable and print it.
+    
+7. Store your name, age, and city in variables and print them.
+    
+8. Store two integers and print their sum.
+    
+9. Store two integers and print their difference.
+    
+10. Store two integers and print their product.
+    
+11. Store two integers and print their quotient.
+    
+12. Store two integers and print their remainder.
+    
+13. Calculate the area of a rectangle.
+    
+14. Calculate the perimeter of a rectangle.
+    
+15. Calculate the area of a square.
+    
+16. Calculate the perimeter of a square.
+    
+17. Calculate the area of a circle.
+    
+18. Calculate the circumference of a circle.
+    
+19. Convert Celsius to Fahrenheit.
+    
+20. Convert Fahrenheit to Celsius.
+    
+
+---
+
+# 🟢 Level 2 — Input Using Scanner
+
+21. Take an integer as input and print it.
+    
+22. Take a `double` as input and print it.
+    
+23. Take a `float` as input and print it.
+    
+24. Take a `long` as input and print it.
+    
+25. Take a character as input and print it.
+    
+26. Take a single word as input and print it.
+    
+27. Take a complete sentence using `nextLine()`.
+    
+28. Take two integers and print their sum.
+    
+29. Take two integers and print all arithmetic results.
+    
+30. Take three integers and print their sum.
+    
+31. Take your name and age as input and print both.
+    
+32. Take length and width as input and calculate rectangle area.
+    
+33. Take radius as input and calculate circle area.
+    
+34. Take marks of 5 subjects and calculate total.
+    
+35. Take marks of 5 subjects and calculate average.
+    
+36. Take principal, rate, and time and calculate simple interest.
+    
+37. Take price and quantity and calculate total bill.
+    
+38. Take two numbers and swap them using a third variable.
+    
+39. Take two numbers and swap them without a third variable.
+    
+40. Take a character and print its ASCII value.
+    
+
+### Important Scanner practice
+
+41. Read an integer followed by a string.
+    
+42. Read a string followed by an integer.
+    
+43. Read two words and print them.
+    
+44. Read a complete sentence and print its length.
+    
+45. Read three different data types in one program.
+    
+46. Read multiple integers from one line.
+    
+47. Read multiple doubles from one line.
+    
+48. Read name, age, and percentage from the user.
+    
+49. Read a character and an integer.
+    
+50. Read two integers and a character representing an operator.
+    
+
+---
+
+# 🟡 Level 3 — Operators
+
+## Arithmetic Operators
+
+51. Calculate `a + b`.
+    
+52. Calculate `a - b`.
+    
+53. Calculate `a * b`.
+    
+54. Calculate `a / b`.
+    
+55. Calculate `a % b`.
+    
+56. Given two integers, print quotient and remainder.
+    
+57. Calculate the average of three numbers.
+    
+58. Calculate the last digit of a number.
+    
+59. Calculate the sum of two numbers using arithmetic operators.
+    
+60. Calculate compound interest.
+    
+
+## Relational Operators
+
+61. Check whether `a > b`.
+    
+62. Check whether `a < b`.
+    
+63. Check whether `a == b`.
+    
+64. Check whether `a != b`.
+    
+65. Check whether `a >= b`.
+    
+66. Check whether `a <= b`.
+    
+67. Compare two numbers and print the result.
+    
+68. Check whether a number lies between 10 and 100.
+    
+69. Check whether two numbers are equal.
+    
+70. Check whether a number is outside a given range.
+    
+
+---
+
+# 🟡 Level 4 — Logical Operators
+
+71. Check whether a number is positive **and** even.
+    
+72. Check whether a number is positive **or** even.
+    
+73. Check whether a number is divisible by both 3 and 5.
+    
+74. Check whether a number is divisible by 3 or 5.
+    
+75. Check whether a person is eligible based on age and another condition.
+    
+76. Check whether a number is between 1 and 100.
+    
+77. Check whether a character is a vowel.
+    
+
+╭─    ~/Projects/javaDSA/src/basic/syntax  on   master ▓▒░·····························································╭─    ~/Projects/javaDSA/src/basic╭─    ~/Projects/javaDSA/src/basic/syntax  on   master ▓▒░····································································░▒▓ 1 ✘  at 05:03:55 PM  ─╮
+╰─ javac basic.java && java basic                                                                                                                                ─╯
+Error: Could not find or load main class basic
+Caused by: java.lang.NoClassDefFoundError: basic (wrong name: basic/syntax/basic)
+71. Check whether a number is a two-digit number.
+    
+72. Check whether a number is divisible by either 3 or 7.
+    
+73. Check whether a number is positive and less than 100.
+    
+
+---
+
+# 🟡 Level 5 — Assignment & Increment Operators
+
+81. Use `+=` to add a value to a variable.
+    
+82. Use `-=` to subtract a value.
+    
+83. Use `*=` to multiply a variable.
+    
+84. Use `/=` to divide a variable.
+    
+85. Use `%=` to find a remainder.
+    
+86. Demonstrate pre-increment.
+    
+87. Demonstrate post-increment.
+    
+88. Demonstrate pre-decrement.
+    
+89. Demonstrate post-decrement.
+    
+90. Predict the output of expressions involving `++` and `--`.
+    
+
+Example:
+
+```java
+int a = 5;
+int b = ++a;
+System.out.println(a);
+System.out.println(b);
+```
+
+91. Predict:
+    
+
+```java
+int a = 5;
+int b = a++;
+```
+
+92. Predict:
+    
+
+```java
+int x = 10;
+x += 5;
+x *= 2;
+x -= 4;
+```
+
+---
+
+# 🟠 Level 6 — Type Casting
+
+## Widening Casting
+
+93. Convert `int` to `long`.
+    
+94. Convert `int` to `double`.
+    
+95. Convert `float` to `double`.
+    
+96. Convert `char` to `int`.
+    
+97. Convert `int` to `double` and perform division.
+    
+
+Example:
+
+```java
+int a = 10;
+double b = a;
+```
+
+## Narrowing Casting
+
+98. Convert `double` to `int`.
+    
+99. Convert `long` to `int`.
+    
+100. Convert `float` to `int`.
+    
+101. Convert `int` to `byte`.
+    
+102. Convert `double` to `float`.
+    
+103. Take a decimal number and print its integer part.
+    
+104. Take a decimal number and round it using casting logic.
+    
+105. Predict the output of different casting operations.
+    
+
+---
+
+# 🔴 Level 7 — Expressions
+
+This section is **very important for Java interviews**.
+
+106. Evaluate:
+    
+
+```java
+int result = 10 + 20 * 2;
+```
+
+107. Evaluate:
+    
+
+```java
+int result = (10 + 20) * 2;
+```
+
+108. Predict:
+    
+
+```java
+int x = 10;
+int y = 20;
+int result = x + y * 2;
+```
+
+109. Predict:
+    
+
+```java
+int result = 10 / 3;
+```
+
+110. Predict:
+    
+
+```java
+double result = 10 / 3;
+```
+
+111. Predict:
+    
+
+```java
+double result = 10.0 / 3;
+```
+
+112. Predict:
+    
+
+```java
+int x = 5;
+System.out.println(x++);
+System.out.println(++x);
+```
+
+113. Evaluate a complex expression involving `+`, `-`, `*`, `/`, `%`.
+    
+114. Evaluate an expression involving relational operators.
+    
+115. Evaluate an expression involving `&&` and `||`.
+    
+116. Evaluate:
+    
+
+```java
+int a = 10;
+int b = 20;
+
+boolean result = a < b && b > 15;
+```
+
+117. Predict the output:
+    
+
+```java
+int x = 10;
+System.out.println(x++ + ++x);
+```
+
+118. Predict:
+    
+
+```java
+int a = 5;
+int b = 10;
+
+System.out.println(a++ + b--);
+```
+
+119. Add parentheses to make an expression evaluate in a specific order.
+    
+120. Write an expression that checks whether a number is even.
+    
+
+---
+
+# 🟠 Level 8 — Character & ASCII
+
+121. Input a character and print its ASCII value.
+    
+122. Input an ASCII value and print its character.
+    
+123. Check whether a character is uppercase.
+    
+124. Check whether a character is lowercase.
+    
+125. Check whether a character is a digit.
+    
+126. Convert uppercase character to lowercase.
+    
+127. Convert lowercase character to uppercase.
+    
+128. Print the next character.
+    
+129. Print the previous character.
+    
+130. Calculate the difference between two characters.
+    
+131. Input two characters and check whether they are equal.
+    
+132. Input a character and determine whether it is a letter, digit, or special character.
+    
+
+---
+
+# 🔴 Level 9 — BufferedReader
+
+After becoming comfortable with `Scanner`, practice `BufferedReader`.
+
+133. Read an integer using `BufferedReader`.
+    
+134. Read a string using `BufferedReader`.
+    
+135. Read two integers using `BufferedReader`.
+    
+136. Read three integers from one line.
+    
+137. Read two numbers and calculate their sum.
+    
+138. Read a complete sentence.
+    
+139. Read a decimal number.
+    
+140. Convert the input string into an integer using `Integer.parseInt()`.
+    
+141. Convert input into `double` using `Double.parseDouble()`.
+    
+142. Read five marks and calculate the average.
+    
+143. Read two numbers and calculate all arithmetic operations.
+    
+
+Basic pattern:
+
+```java
+BufferedReader br =
+    new BufferedReader(new InputStreamReader(System.in));
+
+int n = Integer.parseInt(br.readLine());
+```
+
+---
+
+# 🔥 Level 10 — Mixed Fundamental Problems
+
+These combine **variables + input + operators + casting + expressions**.
+
+144. Convert seconds into hours, minutes, and seconds.
+    
+145. Convert minutes into hours and minutes.
+    
+146. Convert days into weeks and remaining days.
+    
+147. Convert total rupees into ₹500, ₹200, ₹100, ₹50, and remaining amount.
+    
+148. Calculate electricity bill from units and rate.
+    
+149. Calculate salary after adding HRA and DA.
+    
+150. Calculate percentage from obtained marks and total marks.
+    
+151. Calculate BMI from height and weight.
+    
+152. Calculate distance using speed and time.
+    
+153. Calculate speed using distance and time.
+    
+154. Calculate time using distance and speed.
+    
+155. Calculate profit or loss.
+    
+156. Calculate profit percentage.
+    
+157. Calculate discount amount.
+    
+158. Calculate final price after discount.
+    
+159. Calculate GST amount and final price.
+    
+160. Calculate simple interest and total amount.
+    
+
+---
+
+# 🚀 Level 11 — Interview-Oriented Fundamentals
+
+161. What is the difference between `int`, `long`, `float`, and `double`?
+    
+162. Why does this produce an integer result?
+    
+
+```java
+System.out.println(5 / 2);
+```
+
+163. Why does this produce a decimal result?
+    
+
+```java
+System.out.println(5.0 / 2);
+```
+
+164. What happens when an `int` is converted to `double`?
+    
+165. What happens when a `double` is converted to `int`?
+    
+166. What is integer overflow?
+    
+167. Demonstrate integer overflow using `int`.
+    
+168. Demonstrate integer overflow using `byte`.
+    
+169. What is the range of `byte`?
+    
+170. What is the range of `int`?
+    
+171. Why is `char` an integer-like type in Java?
+    
+172. What is the difference between `==` and `=`?
+    
+173. What is the difference between `&&` and `&`?
+    
+174. What is the difference between `||` and `|`?
+    
+175. What is short-circuit evaluation?
+    
+176. Predict the output of complex expressions.
+    
+177. Identify operator precedence in an expression.
+    
+178. Fix an expression that gives the wrong result because of integer division.
+    
+179. Fix a program containing incorrect type casting.
+    
+180. Find and fix input-related bugs.
+    
+
+---
+
+# 🏆 Your First 30 — Do These Before Moving On
+
+Don't try to solve all 180 immediately. Start with these:
+
+|#|Problem|Concept|
+|---|---|---|
+|1|Print Hello World|Syntax|
+|2|Print an integer|Variables|
+|3|Print different data types|Data types|
+|4|Sum of two numbers|Arithmetic|
+|5|Difference|Arithmetic|
+|6|Product|Arithmetic|
+|7|Quotient|Division|
+|8|Remainder|`%`|
+|9|Rectangle area|Expressions|
+|10|Circle area|Expressions|
+|11|Celsius → Fahrenheit|Formula|
+|12|Take integer input|Scanner|
+|13|Take double input|Scanner|
+|14|Take character input|Scanner|
+|15|Take string input|Scanner|
+|16|Sum of two inputs|Input + operators|
+|17|Average of 3 numbers|Expressions|
+|18|Swap using third variable|Variables|
+|19|Swap without third variable|Operators|
+|20|ASCII value of character|`char`|
+|21|Check even using `%`|Operators|
+|22|Check number range|Relational|
+|23|Positive AND even|Logical|
+|24|Divisible by 3 OR 5|Logical|
+|25|Pre/post increment|`++`|
+|26|Pre/post decrement|`--`|
+|27|`int → double`|Casting|
+|28|`double → int`|Casting|
+|29|Fix integer division|Expressions|
+|30|Seconds → HH:MM:SS|Mixed|
+
+### Your progression should now be:
+
+```text
+Java Syntax & Input
+        ↓
+Variables & Data Types
+        ↓
+Operators
+        ↓
+Scanner / BufferedReader
+        ↓
+Type Casting
+        ↓
+Expressions
+        ↓
+if / else
+        ↓
+switch
+        ↓
+Loops
+        ↓
+break / continue
+        ↓
+Methods
+        ↓
+Arrays
+        ↓
+Strings
+        ↓
+2D Arrays
+        ↓
+Complexity
+        ↓
+Searching
+        ↓
+Sorting
+        ↓
+Hashing
+        ↓
+Recursion
+        ↓
+...
+```
+
+**Target:** solve the 30 core questions first, then work through **31–180** progressively. This will make your later DSA topics much easier because you won't be fighting Java syntax while trying to learn algorithms.
