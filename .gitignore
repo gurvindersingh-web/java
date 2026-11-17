@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
 out/
+target/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
@@ -35,3 +36,6 @@ bin/
 .idea/
 *.iml
 
+
+# graphify generated output
+graphify-out/
