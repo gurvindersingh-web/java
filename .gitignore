@@ -39,3 +39,8 @@ bin/
 
 # graphify generated output
 graphify-out/
+
+# Backup files
+*.bak
+*.bak-*
+
